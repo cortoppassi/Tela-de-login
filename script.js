@@ -1,11 +1,12 @@
 var bancodedados = [];
-var salvar = window.prompt();
 
-var registro = {
-    salvar : salvar
-}
+var registro = [novologin, novasenha]
 
 bancodedados.push(registro);
+
+function incluirCadastro() {
+    document.getElementById('popup').style.display = 'none'
+}
 
 
 
@@ -13,15 +14,12 @@ function logar() {
     var login = document.getElementById('login').value;
     var senha = document.getElementById('senha').value;
 
-    if(salvar == senha){
-        alert('ok');
-    } else {
-         alert('Algo esta errado!');
+    var novologin = document.getElementById('novologin').value;
+    var novasenha = document.getElementById('novasenha').value;
+
+    if(senha == novasenha){
+        alert('OK')
+    }else{
+        alert('Algo esta errado!')
     }
-
-     
-     
-     
 }
-
-     
