@@ -9,12 +9,15 @@
     
 </head>
 <body>
+    
     <main>
-
+        <video id="video"></video>
+        <canvas id="canvas"></canvas>
+        
         <h3>Login</h3>
-        <input type="text" placeholder="Login" id="login">
+        <input type="text" placeholder="Login" id="login" required>
         <input type="password" placeholder="Senha" id="senha">
-        <input type="submit" value="Entrar" onclick="logar()">
+        <input type="submit" value="Entrar" onclick="logar()" id='capture'>
 
         <h4>Novo por aqui?<a onclick="cadastrese()" style="color: rgb(54, 11, 147); cursor: pointer;">Cadastre-se</a></h4>
         

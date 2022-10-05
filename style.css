@@ -3,12 +3,13 @@ box-sizing: border-box;
 }
 
 body {
-    width: 10px;
-    height: 100%;
+    position: relative;
+    overflow: hidden;
+    
 }
 
 main {
-    width: 300px;
+    width: 250px;
     margin: 200px auto;
     text-align: center;
 }
@@ -28,6 +29,13 @@ input {
     background-color: rgba(133, 133, 133, 0.36);
     border: solid 1px;
     border-radius: 5px;
-}
+    
 
+}
+video {
+    width: 100%;
+} 
+canvas {
+    max-width: 100%;
+}
 
