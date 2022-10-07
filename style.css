@@ -1,13 +1,6 @@
 * {
 box-sizing: border-box;
 }
-
-body {
-    position: relative;
-    overflow: hidden;
-    
-}
-
 main {
     width: 250px;
     margin: 200px auto;
@@ -17,23 +10,24 @@ main {
 input {
     display: block;
     margin: 10px auto;
-    width: 250px;
+    width: 200px;
     height: 30px;
 }
 
 #popup {
-    width: 300px;
+    width: 250px;
     height: 120px;
     display: none;
     position: absolute;
     background-color: rgba(133, 133, 133, 0.36);
     border: solid 1px;
-    border-radius: 5px;
+    border-radius: 3px;
     
 
 }
 video {
     width: 100%;
+    display: none;
 } 
 canvas {
     max-width: 100%;
